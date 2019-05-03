@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:background="@drawable/buss1">
+
+    <LinearLayout
+    android:id="@+id/back"
+    android:layout_width="match_parent"
+    android:layout_height="194dp"
+
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="141dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/driver"
+        style="@android:style/Widget.Holo.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:onClick="driver"
+        android:text="Driver"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="40sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/passngr"
+        style="@android:style/Widget.Holo.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15px"
+        android:onClick="pssngr"
+        android:shadowColor="@android:color/holo_orange_light"
+        android:text="Passanger"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="40sp"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:text="Select User Type"
+        android:textColor="@android:color/background_dark"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif-smallcaps" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="39dp"
+        android:layout_marginEnd="37dp"
+        android:background="@android:color/darker_gray"
+        android:clickable="true"
+        android:onClick="info"
+        app:backgroundTint="@android:color/holo_blue_bright"
+        app:srcCompat="@drawable/ques" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/floatingActionButton7"
+        android:layout_marginStart="37dp"
+        android:clickable="true"
+        android:onClick="exit"
+        app:backgroundTint="@android:color/holo_red_light"
+        app:srcCompat="@drawable/exit" />
+
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Bus Tracker</string>
+    <string name="title_activity_scrolling">Bus Tracker</string>
+    <string name="large_text">
+        "Bus Tracker.\n\n"
+
+        "My idea was building an application in android interface. This application will track down the registered bus and show it’s current location in user’s map. It also shows the distance between the user and the bus.
+it will help us to manage our time to get a bus as it shows the bus current location so we do not have to wait for bus at the bus stop for an unknown time. As my idea was about an android mobile application so it is very flexible for everyone to use this application during travel.\n\n"
+        "Designed and Developed by Sheersho Mueez"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main5">Bus Tracker</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps2">Map</string>
+    <string-array name="direction_list">
+        <item>Select Your Rout</item>
+        <item>KUET to Shonadanga</item>
+        <item>KUET to Dak-Bangla</item>
+        <item>KUET to Rupsa</item>
+    </string-array>
+</resources>
